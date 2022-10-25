@@ -16,4 +16,5 @@ public class isNotLeapYear {
         assertTrue(Year.is_not_leapyear_when_dividable_100_and_not_400(1700), "Its not a leapyear when dividable by 100 and not 400");
 
     }
+
 }
