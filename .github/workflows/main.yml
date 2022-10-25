@@ -1,10 +1,9 @@
-name: Java CI with Gradle
+name: Java CI 
 
 on: [push] 
     
 jobs: 
   build:
-    
     runs-on: ubuntu-latest
     
     steps: 
@@ -13,7 +12,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '17'
-          distribution: 'temurin'
+          distribution: 'adopt'
           cache: 'gradle'
           
       - name: Build With Gradle
