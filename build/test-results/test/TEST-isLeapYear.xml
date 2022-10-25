@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="isLeapYear" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-06T19:35:57" hostname="MARTIND" time="0.048">
+  <properties/>
+  <testcase name="number_is_leapyear_when_dividable_by_4_and_not_100()" classname="isLeapYear" time="0.041"/>
+  <testcase name="is_number_dividable_by_400()" classname="isLeapYear" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
